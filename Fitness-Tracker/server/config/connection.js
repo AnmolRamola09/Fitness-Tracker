@@ -2,8 +2,9 @@ const mongoose = require("mongoose");
 
 mongoose.set("strictQuery", false);
 
+const url = "your mongoose url";
 mongoose.connect(
-  "mongodb+srv://anmol:abcd1234@cluster0.o6fo11h.mongodb.net/",
+  url,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
